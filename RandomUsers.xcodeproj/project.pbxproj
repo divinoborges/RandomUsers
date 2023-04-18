@@ -14,6 +14,9 @@
 		667BE72129E751980088441B /* RandomUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667BE72029E751980088441B /* RandomUsersTests.swift */; };
 		667BE72B29E751980088441B /* RandomUsersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667BE72A29E751980088441B /* RandomUsersUITests.swift */; };
 		667BE72D29E751980088441B /* RandomUsersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667BE72C29E751980088441B /* RandomUsersUITestsLaunchTests.swift */; };
+		667BE73A29E751F40088441B /* UserFetchingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667BE73929E751F30088441B /* UserFetchingClient.swift */; };
+		667BE73C29E753D50088441B /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667BE73B29E753D50088441B /* UserData.swift */; };
+		667BE73E29E754A30088441B /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667BE73D29E754A30088441B /* UsersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		667BE72629E751980088441B /* RandomUsersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUsersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		667BE72A29E751980088441B /* RandomUsersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersUITests.swift; sourceTree = "<group>"; };
 		667BE72C29E751980088441B /* RandomUsersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		667BE73929E751F30088441B /* UserFetchingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFetchingClient.swift; sourceTree = "<group>"; };
+		667BE73B29E753D50088441B /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		667BE73D29E754A30088441B /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				667BE70F29E751960088441B /* RandomUsersApp.swift */,
 				667BE71129E751960088441B /* ContentView.swift */,
+				667BE73929E751F30088441B /* UserFetchingClient.swift */,
+				667BE73B29E753D50088441B /* UserData.swift */,
+				667BE73D29E754A30088441B /* UsersView.swift */,
 				667BE71329E751980088441B /* Assets.xcassets */,
 				667BE71529E751980088441B /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				667BE73E29E754A30088441B /* UsersView.swift in Sources */,
 				667BE71229E751960088441B /* ContentView.swift in Sources */,
 				667BE71029E751960088441B /* RandomUsersApp.swift in Sources */,
+				667BE73C29E753D50088441B /* UserData.swift in Sources */,
+				667BE73A29E751F40088441B /* UserFetchingClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
